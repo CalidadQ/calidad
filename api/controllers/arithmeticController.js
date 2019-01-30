@@ -18,6 +18,7 @@ exports.calculate = function(req, res) {
   };
 
   // Determine the operation
+  //Test board
 
   if (! req.query.operation) {
     throw new Error("Unspecified operation");
